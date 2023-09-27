@@ -1,5 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap');
 
-h1{
+
+
+* {
+    box-sizing: border-box;
+    background-color: #dbb8ad;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* h1 {
+    color: black;
+} */
+
+.navbarre {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(236, 221, 211);
+
+}
+
+.title {
+    font-family: 'Cinzel';
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 150px 0;
+}
+
+/* h1{
     font-family: 'Courier New', Courier, monospace;
     color: green;
+} */
+
+.ligne {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.colonne {
+    width: 350px;
+}
+
+img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+/* .colonne{
+padding: 5px;
+} */
+
+.article {
+
+    text-align: justify;
+    /* padding: 10px; */
+}
+
+.soustitre {
+    font-family: 'Cinzel';
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+    padding: 25px 0;
+}
+
+.texte {
+    font-family: 'Cormorant Upright';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.ligne1 {
+    display: flex;
+    align-items: center;
+    padding: 0 100px 100px ;
+    gap: 50px;
+}
+
+.article1 {
+    font-family: 'Cormorant Upright';
+    text-align: justify;
+    font-weight: 500;
+    font-size: 30px;
+
+}
+
+.imgcolonne {
+    width: 800px;
+    height: 880px;
+}
+
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(236, 221, 211);
+    margin-top: 100px;
 }
